@@ -2,7 +2,7 @@ import pytest
 from main import Person, create_person_list  # Імпортуй свої класи
 
 
-def test_create_person_list():
+def test_create_person_list() -> None:
 
     Person.people = {}
 
